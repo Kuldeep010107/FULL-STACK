@@ -1,0 +1,28 @@
+.platform-selector { margin-bottom: 16px; }
+
+.platform-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.platform-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 2px solid #444;
+  border-radius: 20px;
+  background: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.platform-btn:hover { border-color: #fff; }
+.platform-btn.active { border-color: #fff !important; background: #fff !important; color: #000 !important; font-weight: 600; }
+.platform-btn.active .platform-icon { color: #000 !important; }
+.platform-icon { font-style: normal; font-weight: 700; font-size: 15px; }

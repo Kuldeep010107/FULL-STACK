@@ -1,0 +1,87 @@
+.composer-card {
+  background: #111;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(255,255,255,0.08);
+  padding: 28px 32px;
+  max-width: 620px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.composer-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.field-group { margin-bottom: 16px; }
+
+.field-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.composer-textarea {
+  width: 100%;
+  border: 1.5px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.composer-textarea::placeholder { color: #555; }
+
+.composer-textarea:focus {
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.08);
+}
+
+.post-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.post-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.post-btn:not(:disabled):hover { opacity: 0.85; }
+
+.success-banner {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #1a1a1a;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .composer-card { padding: 18px 14px; }
+}

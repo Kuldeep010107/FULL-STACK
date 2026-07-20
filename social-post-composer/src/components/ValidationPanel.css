@@ -1,0 +1,21 @@
+.validation-panel {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.validation-section {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.validation-section.errors { background: #1a1a1a; border: 1px solid #555; }
+.validation-section.warnings { background: #1a1a1a; border: 1px solid #666; }
+
+.validation-group { margin-top: 6px; }
+.v-platform { font-weight: 600; display: block; margin-bottom: 2px; color: #fff; }
+.v-msg { padding-left: 10px; color: #aaa; }
+.validation-section.errors .v-msg { color: #ccc; }
+.validation-section.warnings .v-msg { color: #bbb; }
